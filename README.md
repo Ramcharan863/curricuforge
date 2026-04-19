@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+CurricuForge
+CurricuForge is an AI-powered academic assistant that helps educators automatically generate curriculum structures, lesson plans, and assignments. The application simplifies academic planning using modern web technologies and AI integration.
 
-# Run and deploy your AI Studio app
+Features
+Curriculum Generator Generates structured course curricula based on user input.
 
-This contains everything you need to run your app locally.
+Lesson Planner Helps teachers create detailed lesson plans for specific topics.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QstjeNQ77jePPQq7gnuZjtWZ4pt7e3kA
+Assignment Generator Automatically generates assignments and practice questions.
 
-## Run Locally
+AI Integration Uses AI APIs to generate intelligent academic content.
 
-**Prerequisites:**  Node.js
+Technologies Used
+React
+TypeScript
+Vite
+Google GenAI API
+HTML
+CSS
+Project Structure
+components/ – Contains UI components such as curriculum generator, lesson planner, and assignment generator.
 
+services/ – Handles AI service integration.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+App.tsx – Main application component.
+
+index.tsx – Entry point of the application.
+
+Installation and Setup
+Clone the repository
+git clone https://github.com/Kasa-Mounika3/CurricuForge.git
+
+Navigate to the project folder
+cd CurricuForge
+
+Install dependencies
+npm install
+
+Run the development server
+npm run dev
+
+Open the browser and visit
+http://localhost:3000/
+
+Future Improvements
+User authentication
+Save generated curricula
+Export results as PDF
+Improved UI design
